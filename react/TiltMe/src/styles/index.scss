@@ -1,0 +1,29 @@
+@use 'reset';
+@use 'variables' as v;
+
+:root {
+  font-family: 'Quattrocento', serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+  color: v.$light;
+  font-size: 3rem;
+  font-family: 'Bevan', serif;
+}
+
+button {
+  border: 1px solid v.$primary;
+  background-color: v.$grey;
+  color: v.$light;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+  font-family: 'Bevan', 'serif';
+}
